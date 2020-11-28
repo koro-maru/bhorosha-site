@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+   <title>Jobs Listing Page</title>
+  </head>
+  <body>   
+    <nav class="navbar navbar-light bg-light">
+      <a class="navbar-brand" href="h">Bhorosha</a>
+      <a href = "/Employee">Sign up</a>
+      <a href = "/Employer">Sign up</a>
+     </nav>
+   <div>
+      <h1>Bhorosha</h1>
+      <h2>Looking for a job? We have you covered</h2>
+   </div>
+   
+      <p> Women are constantly struggling to find a job and make a living. With this site, we will provide various chances and opportunities for these people. <br>
+      </p>
+  </body>
+</html>
