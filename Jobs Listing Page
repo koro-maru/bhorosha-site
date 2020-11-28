@@ -2,6 +2,7 @@
 
 <html>
   <head>
+    <link rel="stylesheet" type="text/css" href="Job Listing.css">
    <title>Jobs Listing Page</title>
   </head>
   <body>   
