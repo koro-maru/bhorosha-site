@@ -1,0 +1,93 @@
+h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 5vw;
+    text-transform: lowercase;
+}
+
+nav {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+h1 { 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 10vw;
+    font-style: normal;
+    font-weight: bold;
+    letter-spacing: normal;
+    line-height: normal;
+    text-transform: uppercase;
+    color: black
+}
+
+p, span{
+    font-family: 'Helvetica', serif;
+    font-size: 1.5vw;
+}
+
+.snippet {
+    font-size: 3vw;
+}
+
+#donate strong span {
+    font-size: 3vw;
+}
+a {
+    color: white;
+    text-decoration: none;
+}
+a:hover {
+    color: darkgreen;
+    text-decoration: none;
+}
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    border-radius: 1vw;
+    font-size: 16px;
+    margin: 1vw 1vw 1vw 1vw;
+  }
+
+
+h1{
+    text-align: center;
+}
+.icon {
+    width: 128px;
+    height: 128px;
+    display: block;
+}
+#about_site, #get_started{
+    background-color: rgb(29, 79, 57);
+    color: white;
+}
+
+#about_site h3, #get_started h3 {
+    text-align: right;
+}
+
+#mission {
+
+}
+.header {
+    width: 100vw;
+    text-align: center;
+    padding: 10vw;
+    margin: auto;
+    background-image: url("succulents.jpg")
+
+}
+
+a.button {
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    appearance: button;
+
+    text-decoration: none;
+    color: initial;
+}
