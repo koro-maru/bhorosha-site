@@ -39,7 +39,7 @@ h1{
 }
 
 #mission {
-
+    position: relative;
 }
 .header {
     width: 100vw;
