@@ -1,0 +1,30 @@
+
+
+.card{
+    background-color: rgb(189, 230, 189);
+    margin: .8em;
+    padding: 1em;
+    color:rgb(58, 88, 58);
+    border-radius: .5vw;
+}
+
+.card-img-top {
+    margin: 0 auto;
+    width:10em;
+}
+
+.card-body {
+    text-align: center;
+    justify-content: center;
+}
+
+
+.btn-primary{
+    background-color:rgb(137, 198, 137);
+    box-shadow: .3em .3em rgb(58, 88, 58);
+    border: none;
+}
+
+.btn-primary:hover{
+    background-color:   rgb(128, 182, 128); 
+}
