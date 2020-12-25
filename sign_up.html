@@ -1,0 +1,53 @@
+<head>
+<script type="text/javascript" src="https://livejs.com/live.js"></script>
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="auth_forms.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<html>
+    <nav class="navbar navbar-light bg-dark">
+        <a class="navbar-brand" style="color:white" href="/">Bhorosha</a>
+        <a href="/signup">Sign up</a>
+        <a href="/login">Login</a>
+        <a href="/training">Training</a>
+      </nav>
+<div class="form-container">
+        <h1>Sign Up</h1>
+        <form class="col-div">
+            <label for="full_name">Full Name</label>
+            <input class="form-control" type="text" id="full_name" name="full_name" />
+            
+            <label for="email">Email</label>
+            <input class="form-control" type="email" required id="email" name="email"/>
+
+            <label for="password">Password</label>
+            <input class="form-control" type="password" required id="password" name="password" />
+            
+            <label for="phone_number">Phone Number</label>
+            <input class="form-control" type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" name="phone_number" required id="phone_number" />
+            
+            
+            <div class="row">
+                <div class="col">
+                    <label for= "street-address">Street Address</label>
+                    <input type= "street-address" class="form-control" required id= "street-address" name= "street-address" />
+
+                    <label for="street-address-2">Street Address 2</label>
+                    <input type="street-address-2" class="form-control" required id="street-address-2" name="street-address-2" />
+            </div>
+
+            <div class="col">
+                    <label for= "city">City</label>
+                    <input type= "city" class="form-control" required id= "city" name="city" />
+
+                    <label for= "district">District</label>
+                    <input type= "district" class="form-control" required id= "district" name= "district" />
+            </div>
+        </div>
+
+        <button type="submit">Submit</button>
+    </form>
+</div>
+</html>
