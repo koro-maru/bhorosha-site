@@ -2,34 +2,50 @@
 
 h1 { 
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    font-size: 10vw;
     font-style: normal;
     font-weight: bold;
     letter-spacing: normal;
     line-height: normal;
     text-transform: uppercase;
-    color: black
+    color: black;
+    text-align: center;
+    font-size: 15em;
 }
 
 
 .snippet {
     font-size: 3vw;
+    color: rgb(88, 105, 94)
 }
 
 #donate strong span {
     font-size: 3vw;
 }
 
+#about_site, #get_started{
+    background-color: rgb(246, 255, 241);
+}
 
-h1{
-    text-align: center;
+#donate h3, #mission h3, #donate, #mission{
+    text-align: left;
+   
 }
 .icon {
     width: 128px;
     height: 128px;
     display: block;
 }
-#about_site, #get_started{
+
+.lg-link{
+    border-radius: 1vw;
+    color: white;
+    padding: 1rem;
+    background-color: rgb(33, 51, 34);
+    margin-right: 6rem;
+    font-size: 10rem;
+}
+
+#donate, #mission {
     background-color: rgb(29, 79, 57);
     color: white;
 }
@@ -41,11 +57,37 @@ h1{
 #mission {
     position: relative;
 }
+
+#get_started {
+    font-family: 'Times New Roman', Times, serif;
+}
 .header {
     width: 100vw;
+    height: 100vh;
     text-align: center;
     padding: 10vw;
-    margin: auto;
-    background-image: url("succulents.jpg")
+    background-color: white;
+}
 
+
+.responsive-footer {
+    background-color: rgb(18, 32, 17);
+    color: white;
+}
+
+
+
+#about_site img{
+    display: block;
+    margin: auto;
+    width: 400px;
+    height: 400px;;
+}
+
+#about_site {
+    text-align: center;
+}
+
+section{
+    padding: 10vw;
 }

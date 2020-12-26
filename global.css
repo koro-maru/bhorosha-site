@@ -1,10 +1,53 @@
-a {
+.navlink {
     color: white;
+    margin-left: 2em;
     text-decoration: none;
 }
+
+#sm-header {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+.info-box {
+    border-radius: .5vw;
+    box-shadow: 5vw rgb(194, 172, 172) ;
+    padding: 3vw;
+    background-color: rgb(110, 150, 124);
+    height:30vh;
+    width: 20vw;
+}
+
+footer {
+text-align: center;
+padding: 3vh;
+color: cadetblue;
+}
+
+footer h3 {
+    color: rgb(46, 84, 85);
+}
+footer a {
+    color: cadetblue;
+}
+footer span{
+    margin: .5vh;
+    font-size: 2vh;
+    color: cadetblue;
+}
+
+
+.navbar {
+    background-color: rgb(41, 41, 41);
+}
 a:hover {
-    color: darkgreen;
+    color: rgb(147, 194, 147);
     text-decoration: none;
+}
+body, html{
+    background-image: url("pattern.png");
+    background-repeat: repeat;
 }
 .button {
     background-color: #4CAF50; /* Green */
@@ -27,9 +70,35 @@ a:hover {
 nav {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
-h3 {
+.heading {
+    text-align: center;
     font-family: Arial, Helvetica, sans-serif;
     font-weight: bold;
-    font-size: 5vw;
+    font-size: 10vw;
     text-transform: lowercase;
+}
+
+li {
+ list-style-type: none;
+}
+
+a {
+    color: green;
+    text-decoration: none;
+}
+
+button a {
+    color: white;
+}
+button {
+    border-radius: 5%;
+    font-size:1em;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: mintcream;
+    align-self: center;
+    background-color: green;
+    border: none;
+    width: 100px;
+    height: 50px;
+    margin-top: 2em;
 }

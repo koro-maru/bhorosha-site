@@ -1,32 +1,60 @@
 <head>
-<script type="text/javascript" src="https://livejs.com/live.js"></script>
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-  integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-<link rel="stylesheet" href="auth_forms.css">
+    <script type="text/javascript" src="https://livejs.com/live.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="global.css">
+    <link rel="stylesheet" href="auth_forms.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 
 <html>
-    <nav class="navbar navbar-light bg-dark">
-        <a class="navbar-brand" style="color:white" href="/">Bhorosha</a>
-        <a href="/signup">Sign up</a>
-        <a href="/login">Login</a>
-        <a href="/training">Training</a>
-      </nav>
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="./homepage.html">Bhorosha</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+    
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="./employeedashboard.html">Employee Dashboard</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./employerdashboard.html">Employer Dashboard</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./employeeProfile.html">Employee Profile</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./employerProfile.html">Employer Profile</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contact_us.html">Contact Us</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./sign_in.html">Sign In</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./sign_up.html">Sign Up</a>
+          </li>
+        </ul>
+    </nav>
 
-    <div class="form-container">
-        <h1>Login</h1>
-        <form class="col-div">
-            <label for="email">Email</label>
-            <input class="form-control" type="email" required id="email" name="email"/>
 
-            <label for="password">Password</label>
-            <input class="form-control" type="password" required id="password" name="password" />
-   
-   
-            <button type="submit">Login</button>
-        </div>
+<div class="form-container sign_in">
+    <h1>Login</h1>
+    <form class="col-div">
+        <label for="email">Email</label>
+        <input class="form-control" type="email" required id="email" name="email" />
 
-    </form>
+        <label for="password">Password</label>
+        <input class="form-control" type="password" required id="password" name="password" />
+
+
+        <button type="submit">Login</button>
 </div>
+
+</form>
+</div>
+
 </html>

@@ -2,6 +2,7 @@
 
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
+I'd merge this and employer profile into one css file if I were you
 */
 
 a {
@@ -28,13 +29,6 @@ p, span{
   font-family: 'Helvetica', serif;
   font-size: 1.5vw;
 }
-
-
-
-
-
-
-
 
 
 nav {
@@ -171,6 +165,7 @@ None of this is needed, atleast for now so I left it out
 }
 
 .grid-item {
+  background-color: white;
   height: auto;
   box-shadow: 0px 0px 15px 1px rgba(0, 0, 0, 0.1);
   border-radius: 25px;
