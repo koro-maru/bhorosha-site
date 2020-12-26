@@ -1,9 +1,10 @@
-body {
-    background-color: rgb(43, 117, 85);
-}
 h1, h2{
     padding:16px;
-    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 4vw;
+    text-transform: lowercase;
+    text-shadow: 6px 6px rgb(137, 177, 137);;
 }
 /** Flexbox **/
 .flex-boxes {
@@ -11,23 +12,30 @@ h1, h2{
     background: whitesmoke;
     border: 4px solid gainsboro;
     border-radius: 6px;
-    padding: 8px 8px 8px 20px;
+    padding: 25px 20px 25px 25px;
     flex-flow: column nowrap;
-    justify-content: space-around;
     align-items: flex-start;
+    margin: auto;
 }
 .social-m {
-    height:450px;
-    width:450px;
-    margin-left:100px;
-    margin-top:100px;
+    width:35em;
+    margin-top:4em;
+    padding:1em 1em 1em 1em;
 }
 
 .email {
-    height:850px;
-    width:480px;
-    margin-left:700px;
-    margin-top:-600px;
+    width:40em;
+    margin-top: 1em;
+    padding:1em 1em 1em 1em;
+}
+.link-text {
+    font-size:1em;
+}
+.row-div {
+    display: flex;
+    flex-direction: column;
+    color: rgb(5, 54, 5);
+    padding:20px 20px 20px 20px;
 }
 .founder-img-top { 
     height:60px;
