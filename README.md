@@ -1,7 +1,7 @@
 # Bhorosha-site
 A website for nonprofit job-finding company Bhorosha
 
-## Contributer's Brief Description
+## Contributer Brief Description
 
 ### Natan Ceballos
 
