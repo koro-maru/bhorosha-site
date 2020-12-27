@@ -1,12 +1,13 @@
-h1, h2{
-    padding:16px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    font-size: 4vw;
-    text-transform: lowercase;
-    text-shadow: 6px 6px rgb(137, 177, 137);;
-}
+
 /** Flexbox **/
+
+h3 {
+    text-align: center;
+}
+
+button {
+    align-self: center;
+}
 .flex-boxes {
     display: flex;
     background: whitesmoke;
