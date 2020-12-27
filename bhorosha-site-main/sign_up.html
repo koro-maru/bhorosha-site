@@ -1,0 +1,81 @@
+<head>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="global.css">
+<link rel="stylesheet" href="auth_forms.css">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<html>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="./homepage.html">Bhorosha</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+      
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="./employeedashboard.html">Employee Dashboard</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./employerdashboard.html">Employer Dashboard</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./employeeProfile.html">Employee Profile</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./employerProfile.html">Employer Profile</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./contact_us.html">Contact Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./sign_in.html">Sign In</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="./sign_up.html">Sign Up</a>
+            </li>
+          </ul>
+      </nav>
+
+<div class="form-container">
+        <h1 class="heading">Sign Up</h1>
+        <form class="col-div">
+            <label for="full_name">Full Name</label>
+            <input class="form-control" type="text" id="full_name" name="full_name" />
+            
+            <label for="email">Email</label>
+            <input class="form-control" type="email" required id="email" name="email"/>
+
+            <label for="password">Password</label>
+            <input class="form-control" type="password" required id="password" name="password" />
+            
+            <label for="phone_number">Phone Number</label>
+            <input class="form-control" type="tel" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" name="phone_number" required id="phone_number" />
+            
+            
+            <div class="row">
+                <div class="col">
+                    <label for= "street-address">Street Address</label>
+                    <input type= "street-address" class="form-control" required id= "street-address" name= "street-address" />
+
+                    <label for="street-address-2">Street Address 2</label>
+                    <input type="street-address-2" class="form-control" required id="street-address-2" name="street-address-2" />
+            </div>
+
+            <div class="col">
+                    <label for= "city">City</label>
+                    <input type= "city" class="form-control" required id= "city" name="city" />
+
+                    <label for= "district">District</label>
+                    <input type= "district" class="form-control" required id= "district" name= "district" />
+            </div>
+        </div>
+
+        <button type="submit">Submit</button>
+    </form>
+</div>
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+</html>
